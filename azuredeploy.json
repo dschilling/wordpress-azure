@@ -15,10 +15,17 @@
       "defaultValue": "F1"
     },
     "repoUrl": {
-      "type": "string"
+      "type": "string",
+      "metadata": {
+        "description": "GitHub repo to deploy to App Service"
+      },
+      "defaultValue": "https://github.com/dschilling/wordpress-azure"
     },
     "branch": {
       "type": "string",
+      "metadata": {
+        "description": "GitHub repo branch to deploy to App Service"
+      },
       "defaultValue": "master"
     },
     "location": {
