@@ -19,7 +19,7 @@
       "metadata": {
         "description": "GitHub repo to deploy to App Service"
       },
-      "defaultValue": "https://github.com/azureappserviceoss/wordpress-azure"
+      "defaultValue": "https://github.com/dschilling/wordpress-azure"
     },
     "branch": {
       "type": "string",
